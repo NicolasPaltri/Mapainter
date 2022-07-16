@@ -5,55 +5,124 @@ body{
     background-image: url("img/mapa1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
+/* ---------------------------------------------------------------- */
+/* COMEÇO ORIS */
 .circulo{
     border-radius: 50%;
     width: 20px;
     height: 20px;
     background: #222;
     margin-right: 50px;
-    transition: .3s;
+    transition: .7s;
     position: absolute;
-    bottom: 38%;
-    left: 14%;
+    bottom: 34.7%;
+    left: 15.3%;
+    border: none;
+    z-index: 100;
 }
 .circulo:hover{
     cursor: pointer;
-    background: #D7CC9E;
-    transform: scale(1.5);
+    background-image: url("img/oris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+
 }
 
 .texto{
-    padding: 50px;
-    width: 500px;
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
     border-radius: 10px;
-    border: 1px solid #222;
-    visibility: hidden;
+    opacity: 0;
     background: linear-gradient(to right, #D7CC93 , rgba(255, 255, 255, 0.342) );
     backdrop-filter: blur(50px);
     border: none;
     position: absolute;
-    bottom: 40%;
-    left: 16%;
+    top: 20%;
+    left: 60%;
+    transition: .7s;
 }
 
+.info{
+    padding: 0px 45px;
+}
+.texto img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto h1{
+    font-size: 40px;
+}
+
+.texto p{
+    width: 252px;
+    font-size: 14px;
+}
+/* ------------------------------------------------------------- */
+
+/* COMEÇO HOUR */
 .circulo1{
     border-radius: 50%;
     width: 20px;
     height: 20px;
     background: #222;
     margin-right: 50px;
-    transition: .3s;
+    transition: .7s;
     position: absolute;
-    bottom: 35%;
-    left: 9%;
+    bottom: 38%;
+    left: 11.5%;
+    border: none;
 }
-
 .circulo1:hover{
     cursor: pointer;
-    background: rgb(32, 255, 225);
+    background-image: url("img/Hour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
 }
+.texto1{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D65516, rgba(214, 85, 22, 0.2) );
+    backdrop-filter: blur(50px);
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .7s;
+}
+
+.info1{
+    padding: 0px 45px;
+}
+.texto1 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto1 h1{
+    font-size: 40px;
+}
+
+.texto1 p{
+    width: 252px;
+    font-size: 14px;
+}
+/* ---------------------------------------------------------- */
+/* COMEÇO AZÁLION*/
 
 .circulo2{
     border-radius: 50%;
@@ -61,31 +130,380 @@ body{
     height: 20px;
     background: #222;
     margin-right: 50px;
-    transition: .3s;
+    transition: .5s;
     position: absolute;
-    bottom: 18%;
-    left: 14.5%;
+    bottom: 46%;
+    left: 15%;
+    border: none;
 }
-
 .circulo2:hover{
     cursor: pointer;
-    background: rgb(32, 255, 225);
+    background-image: url("img/Azalion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+.texto2{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D65516, rgba(88, 59, 44, 0.2) );
+    backdrop-filter: blur(50px);
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
 }
 
+.info2{
+    padding: 0px 45px;
+}
+.texto2 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto2 h1{
+    font-size: 40px;
+}
+
+.texto2 p{
+    width: 252px;
+    font-size: 14px;
+}
+/* -------------------------------------------------------------------- */
+/* COMEÇA CACTY */
 .circulo3{
     border-radius: 50%;
     width: 20px;
     height: 20px;
     background: #222;
     margin-right: 50px;
-    transition: .3s;
+    transition: .5s;
     position: absolute;
-    bottom: 35%;
-    left: 35%;
+    bottom: 25%;
+    left: 17.6%;
+    border: none;
 }
-
 .circulo3:hover{
     cursor: pointer;
-    background: rgb(32, 255, 225);
+    background-image: url("img/Cacty.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+.texto3{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #45A899, rgba(10, 249, 238, 0.2) );
+    backdrop-filter: blur(50px);
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
 }
 
+.info3{
+    padding: 0px 45px;
+}
+.texto3 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto3 h1{
+    font-size: 40px;
+}
+
+.texto3 p{
+    width: 252px;
+    font-size: 14px;
+}
+/* -------------------------------------------------------------------- */
+/* COMEÇA PARIN*/
+.circulo4{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    margin-right: 50px;
+    transition: .5s;
+    position: absolute;
+    bottom: 21.7%;
+    left: 11.6%;
+    border: none;
+}
+.circulo4:hover{
+    cursor: pointer;
+    background-image: url("img/Parin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+.texto4{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D65516, rgba(88, 59, 44, 0.2) );
+    backdrop-filter: blur(50px);
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
+}
+
+.info4{
+    padding: 0px 45px;
+}
+.texto4 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto4 h1{
+    font-size: 40px;
+}
+
+.texto4 p{
+    width: 252px;
+    font-size: 14px;
+}
+/* -------------------------------------------------------------------- */
+/* COMEÇA ROCKA */
+
+.circulo5{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    margin-right: 50px;
+    transition: .5s;
+    position: absolute;
+    bottom: 48.7%;
+    left: 8.5%;
+    border: none;
+}
+.circulo5:hover{
+    cursor: pointer;
+    background-image: url("img/Rocka.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+.texto5{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D7CC93 , rgba(255, 255, 255, 0.342) );
+    backdrop-filter: blur(50px);
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
+}
+
+.info5{
+    padding: 0px 45px;
+}
+.texto5 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto5 h1{
+    font-size: 40px;
+}
+
+.texto5 p{
+    width: 252px;
+    font-size: 14px;
+}
+
+/* -------------------------------------------------------------------- */
+/* COMEÇA TEWNZ */
+
+.circulo6{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    margin-right: 50px;
+    transition: .5s;
+    position: absolute;
+    bottom: 17%;
+    left: 17%;
+    border: none;
+}
+.circulo6:hover{
+    cursor: pointer;
+    background-image: url("img/Tewnz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+.texto6{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D7CC93 , rgba(10, 249, 238, 0.2) );
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
+}
+
+.info6{
+    padding: 0px 45px;
+}
+.texto6 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto6 h1{
+    font-size: 40px;
+}
+
+.texto6 p{
+    width: 252px;
+    font-size: 14px;
+}
+
+/* -------------------------------------------------------------------- */
+/* COMEÇA SHURIN */
+
+.circulo7{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    margin-right: 50px;
+    transition: .5s;
+    position: absolute;
+    bottom: 45.5%;
+    left: 30%;
+    border: none;
+}
+.circulo7:hover{
+    cursor: pointer;
+    background-image: url("img/shurin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+.texto7{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D7CC93 , rgba(255, 255, 255, 0.342) );
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
+    z-index: -2;
+}
+
+.info7{
+    padding: 0px 45px;
+}
+.texto7 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto7 h1{
+    font-size: 40px;
+}
+
+.texto7 p{
+    width: 252px;
+    font-size: 14px;
+}
+
+/* -------------------------------------------------------------------- */
+/* COMEÇA Viridias */
+
+.circulo8{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    margin-right: 50px;
+    transition: .5s;
+    position: absolute;
+    bottom: 32.5%;
+    left: 30.5%;
+    border: none;
+    z-index: 100;
+}
+.circulo8:hover{
+    cursor: pointer;
+    background-image: url("img/Viridias.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+
+}
+.texto8{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+    background: linear-gradient(to right, #D7CC93 , rgba(255, 255, 255, 0.342) );
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: .5s;
+}
+
+.info8{
+    padding: 0px 45px;
+}
+.texto8 img{
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.texto8 h1{
+    font-size: 40px;
+}
+
+.texto8 p{
+    width: 252px;
+    font-size: 14px;
+}
